@@ -18,6 +18,3 @@ RUN apt-get update -q && \
     truncate -s 0 /var/log/*log
 
 RUN gem update -q --system
-
-CMD ["-v"]
-ENTRYPOINT ["ruby"]
