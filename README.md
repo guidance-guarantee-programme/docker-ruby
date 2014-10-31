@@ -1,3 +1,3 @@
 # Docker - Ruby Image
 
-Provides Ruby 2.1.3.
+Provides Ruby 2.1.4.
