@@ -1,7 +1,7 @@
 FROM hmtreasury/base
 MAINTAINER HM Treasury Guidance Guarantee Programme <pensions-guidance-members@digital.cabinet-office.gov.uk>
 
-ENV RUBY_VERSION 2.2.0
+ENV RUBY_VERSION 2.2.1
 ENV RUBY_BUILD_DEPENDENCIES build-essential curl libffi-dev libgdbm-dev libreadline6-dev libssl-dev libyaml-dev
 
 RUN apt-get update -q && \
